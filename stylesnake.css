@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px; /* Adjusts space between the title and the canvas */
+}
+
+canvas {
+    background-color: black;
+    border: 5px solid white; /* The visible wall boundary */
+}
