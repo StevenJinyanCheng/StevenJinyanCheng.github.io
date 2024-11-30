@@ -5,8 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Breakout Game</title>
   <style>
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
     canvas {
-      background: #eee;
+      background: #ffffff;
       display: block;
       margin: 20px auto;
     }
@@ -20,6 +26,10 @@
   </style>
 </head>
 <body>
+  <header>
+    <h1>Breakout Game</h1>
+  </header>
+  
   <div class="controls">
     <label for="brickRows">Brick Rows: </label>
     <input type="range" id="brickRows" min="2" max="10" value="5">
